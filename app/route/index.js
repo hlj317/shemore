@@ -1,4 +1,4 @@
-const home = require("../../app/controllers/pc");
+const pc = require("../../app/controllers/pc");
 
 module.exports = {
     "/home": pc.home
