@@ -1,7 +1,7 @@
 {
   "error/404": {
     "js": "/assets/static/error/404-c493ae56.js",
-    "css": "/assets/static/error/404-cdff9135.css",
+    "css": "/assets/static/error/404-736c5c37.css",
     "woff": "/assets/static/8.woff"
   },
   "demo/hello": {
@@ -16,7 +16,11 @@
     "woff": "/assets/static/535877f5.element-icons.woff"
   },
   "hello": {
-    "js": "/assets/static/hello-8d392416.js",
-    "css": "/assets/static/hello-cdff9135.css"
+    "js": "/assets/static/hello-3d574a2f.js",
+    "css": "/assets/static/hello-fdf92da0.css"
+  },
+  "home": {
+    "js": "/assets/static/home-db230c01.js",
+    "css": "/assets/static/home-736c5c37.css"
   }
 }

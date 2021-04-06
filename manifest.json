@@ -17,7 +17,7 @@
   "login.js": "/assets/static/login-e26af39a.js",
   "login.css": "/assets/static/login-80ad67d5.css",
   "error/404.js": "/assets/static/error/404-c493ae56.js",
-  "error/404.css": "/assets/static/error/404-cdff9135.css",
+  "error/404.css": "/assets/static/error/404-736c5c37.css",
   "detail.js": "/assets/static/detail-7e231008.js",
   "detail.css": "/assets/static/detail-80ad67d5.css",
   "ai.js": "/assets/static/ai-049cd506.js",
@@ -60,6 +60,8 @@
   "images/element-icons.woff": "/images/535877f5.element-icons.woff",
   "assets/static/element-icons.ttf": "/assets/static/732389de.element-icons.ttf",
   "assets/static/element-icons.woff": "/assets/static/535877f5.element-icons.woff",
-  "hello.js": "/assets/static/hello-8d392416.js",
-  "hello.css": "/assets/static/hello-cdff9135.css"
+  "hello.js": "/assets/static/hello-3d574a2f.js",
+  "hello.css": "/assets/static/hello-fdf92da0.css",
+  "home.js": "/assets/static/home-db230c01.js",
+  "home.css": "/assets/static/home-736c5c37.css"
 }

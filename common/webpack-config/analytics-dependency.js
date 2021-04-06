@@ -155,7 +155,7 @@ class Analytics {
     // 获取修改过的文件的路径
     getDiffFile () {
         if (fs.existsSync(".git")) {
-            this.diffFile = execSync("git add -N . && git diff origin/main --name-only", {
+            this.diffFile = execSync("git add -N . && git diff origin/master --name-only", {
                 encoding: "utf8",
             }).split("\n")
                 .filter((item) => item)

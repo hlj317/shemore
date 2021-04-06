@@ -1,5 +1,5 @@
-const demo = require("../../app/controllers/demo");
+const home = require("../../app/controllers/pc");
 
 module.exports = {
-    "/hello": demo.hello
+    "/home": pc.home
 };
