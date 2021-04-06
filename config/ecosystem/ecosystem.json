@@ -1,26 +1,26 @@
 {
     "apps": [
         {
-            "name": "blog-node-pc-service-dev",
+            "name": "shemore-service-dev",
             "script": "./index.web.js",
             "instances": 1,
             "exec_mode": "fork",
-            "out_file": "/tmp/blog-node-pc/blog-node-pc_out.log",
-            "error_file": "/tmp/blog-node-pc/blog-node-pc_err.log",
-            "log_file": "/tmp/blog-node-pc/blog-node-pc_log.log",
+            "out_file": "/tmp/shemore-service-dev/shemore-service-dev_out.log",
+            "error_file": "/tmp/shemore-service-dev/shemore-service-dev_err.log",
+            "log_file": "/tmp/shemore-service-dev/shemore-service-dev_log.log",
             "env": {
                 "NODE_ENV": "dev"
             },
             "watch": true
         },
         {
-            "name": "blog-node-pc-service-production",
+            "name": "shemore-service-production",
             "script": "./index.web.js",
             "instances": 1,
             "exec_mode": "fork",
-            "out_file": "/tmp/blog-node-pc/blog-node-pc_out.log",
-            "error_file": "/tmp/blog-node-pc/blog-node-pc_err.log",
-            "log_file": "/tmp/blog-node-pc/blog-node-pc_log.log",
+            "out_file": "/tmp/shemore-service-dev/shemore-service-dev_out.log",
+            "error_file": "/tmp/shemore-service-dev/shemore-service-dev_err.log",
+            "log_file": "/tmp/shemore-service-dev/shemore-service-dev_log.log",
             "env": {
                 "NODE_ENV": "production"
             },
