@@ -1,0 +1,30 @@
+{
+    "apps": [
+        {
+            "name": "shemore-service-dev",
+            "script": "./index.web.js",
+            "instances": 1,
+            "exec_mode": "fork",
+            "out_file": "/tmp/shemore-service/shemore-service_out.log",
+            "error_file": "/tmp/shemore-service/shemore-service_err.log",
+            "log_file": "/tmp/shemore-service/shemore-service_log.log",
+            "env": {
+                "NODE_ENV": "dev"
+            },
+            "watch": true
+        },
+        {
+            "name": "shemore-service-production",
+            "script": "./index.web.js",
+            "instances": 1,
+            "exec_mode": "fork",
+            "out_file": "/tmp/shemore-service/shemore-service_out.log",
+            "error_file": "/tmp/shemore-service/shemore-service_err.log",
+            "log_file": "/tmp/shemore-service/shemore-service_log.log",
+            "env": {
+                "NODE_ENV": "production"
+            },
+            "watch": true
+        }
+    ]
+}

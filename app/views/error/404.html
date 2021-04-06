@@ -1,0 +1,25 @@
+{{extend ("../layout/default.html")}}
+<style>
+    .page404 {
+        text-align: center;
+    }
+    .page404 .tip {
+        font-size: .3rem;
+    }
+    .page404 .btn {
+        font-size: .5rem; 
+    }
+    .page404 img{
+        display: block;
+        margin: 2rem auto;
+        width: 9.6rem;
+        height: 9.6rem;
+    }
+</style>
+{{#block ("body")}}
+<div class="page404">
+    <img src="//b0.beicdn.com/party/2016/9/upload_31e7b5d0a2fc2fd6ddd145a0175d82d8_450x450.png">
+    <p class="tip">思想开小差 页面丢失...</p>
+    <a class="btn" href='//m.beibei.com?beibeiapp_info={"target":"bd/mart/home"}'>返回首页</a>
+</div>
+{{/block}}

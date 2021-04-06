@@ -1,0 +1,32 @@
+<script type="text/javascript">
+! function(a) {
+    a.HB_DISABLE_AJAX_FORCE_HTTPS=!0;
+    function b() {
+        a.rem = f.getBoundingClientRect().width / 16, f.style.fontSize = a.rem + "px"
+    }
+    var c, d = a.navigator.appVersion.match(/iphone/gi) ? a.devicePixelRatio : 1,
+        e = 1 / d,
+        f = document.documentElement,
+        g = document.createElement("meta");
+    if (a.dpr = d, a.addEventListener("resize", function() {
+            clearTimeout(c), c = setTimeout(b, 300)
+        }, !1), a.addEventListener("pageshow", function(a) {
+            a.persisted && (clearTimeout(c), c = setTimeout(b, 300))
+        }, !1), f.setAttribute("data-dpr", d), g.setAttribute("name", "viewport"), g.setAttribute("content", "initial-scale=" + e + ", maximum-scale=" + e + ", minimum-scale=" + e + ", user-scalable=no, viewport-fit=cover"), f.firstElementChild) f.firstElementChild.appendChild(g);
+    else {
+        var h = document.createElement("div");
+        h.appendChild(g), document.write(h.innerHTML)
+    }
+    b()
+}(window);
+// 去掉朋友圈分享
+document.addEventListener('DOMContentLoaded', function () {
+    var shareInputDom = document.createElement('input');
+    shareInputDom.type = 'hidden';
+    shareInputDom.value = '{"platform": "qq_qzone_weixin_weibo_copy","title":"","desc": "","image":"","comment": "", "url":""}';
+    shareInputDom.id = 'app_share_conf';
+
+    document.getElementsByTagName('body')[0].appendChild(shareInputDom);
+}, false);
+</script>
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' *.beibei.com.cn *.beidian.com *.beibei.com 'unsafe-eval';child-src 'self';frame-src weixin://*;">

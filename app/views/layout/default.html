@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+    {{{block ("headStart")}}}
+    {{include ("./header.html") }}
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <meta name="keyword" content="{{keyword}}">
+    {{#if(productionAsset)}}
+    {{{#block ("css")}}}
+    <link rel="stylesheet" href="{{url(path +'.css')}}">
+    {{{/block}}}
+    {{/if}}
+    {{{block ("headEnd")}}}
+</head>
+
+<body {{{body_extend}}}>
+    <input type="hidden"
+        value='{"platform": "qq_qzone_weixin_weibo_copy","title":"","desc": "","image":"","comment": "", "url":""}'
+        id="app_share_conf" />
+    {{{block ("body")}}}
+    <script src="{{libsPath('common-v1.1.0.js')}}"></script>
+    {{{#block ("js")}}}
+    <script src="{{url(path+'.js')}}" async></script>
+    {{{/block}}}
+</body>
+
+</html>

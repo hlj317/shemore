@@ -1,0 +1,59 @@
+@import "../common/less/common.less";
+@import "../hello/avator.less";
+.hello-page{
+    margin:0 auto;
+    width:1000px;
+    .header{
+        background:#efefef;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        padding:20px 0;
+    }
+    .navigation{
+        background:#efefef;
+        margin:10px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        .entry{
+            background:teal;
+            width:80px;
+            height:80px;
+            border-radius: 80px;
+            margin:0 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            a{
+                color:#ffffff;
+                font-size: 16px;
+            }
+        }
+    }
+    .content{
+        background:#efefef;
+        margin:10px 0 0 0;
+        padding:20px;
+        .article{
+            margin:0 0 10px 0;
+            border-bottom:1px dashed #cccccc;
+            padding:0 0 8px 0;
+            .time{
+                font-size:10px;
+                color:#999999;
+            }
+            .title{
+                font-size:16px;
+                font-weight: bold;
+                margin:2px 0 5px 0;
+            }
+            .descirption{
+                font-size:14px;
+            }
+        }
+    }
+}

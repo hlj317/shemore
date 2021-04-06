@@ -1,0 +1,51 @@
+{{extend ("../layout/default.html")}}
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+    .neterror-wrap {
+        position:absolute;
+        padding-top:50%;
+        box-sizing:border-box;
+        height:100%;
+        width:100%;
+        text-align:center;
+    }
+    .neterror-icon {
+        display:block;
+        margin:0 auto;
+        height:5.12rem;
+        width:5.12rem;
+    }
+    .neterror-text {
+        margin-top:.597rem;
+        color:#8f8f8f;
+        font-size:.555rem;
+    }
+    .neterror-reload-btn {
+        display:inline-block;
+        border:1px solid #f00;
+        margin-top:1.024rem;
+        padding:.256rem .768rem;
+        font-size:.64rem;
+        line-height:1;
+        color:#FF4965;
+        border:1px solid rgba(255,73,101,.40);
+        border-radius:2.13rem;
+    }
+</style>
+{{#block ("body")}}
+    <div class="neterror-wrap">
+        <img class="neterror-icon" src="//h0.beicdn.com/open/201744/6adc92ebab1b0bb8_360x360.png" />
+        <p class="neterror-text">网络不给力，点击重新加载</p>
+        <p class="neterror-reload-btn" id="J_neterror-reload-btn">重新加载</p>
+    </div>
+    <script>
+        window.onload = function () {
+            document.getElementById('J_neterror-reload-btn').onclick = function () {
+                location.reload();
+            };
+        }
+</script>
+{{/block}}

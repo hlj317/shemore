@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# 忽略编译后的静态文件
+/assets/
