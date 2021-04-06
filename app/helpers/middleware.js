@@ -89,12 +89,14 @@ let pageCache = (ctx, next) => {
 let errorRedirect = async (ctx, next) => {
     try {
         await next();
+        console.log("**************222222222");
         const status = ctx.response.status;
         if (status === 404) {
             ctx.status = 404;
             await ctx.render("error/404");
         }
     } catch (e) {
+        console.log("**************333333333");
         ctx.cache(false);
         ctx.app.onerror(e);
         ctx.status = 500;

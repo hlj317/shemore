@@ -1,6 +1,6 @@
 {
-    "name": "shemore",
-    "description": "shemore",
+    "name": "pc-standard",
+    "description": "pc-standard",
     "version": "1.0.0",
     "main": "index.web.js",
     "scripts": {
@@ -19,7 +19,7 @@
         "url": ""
     },
     "keywords": [
-        "shemore"
+        "pc-standard"
     ],
     "author": "huanglijun317@126.com",
     "dependencies": {
