@@ -1,17 +1,14 @@
 @import "../common/less/common.less";
-@import "../home/avator.less";
-.hello-page{
+.home-page{
     margin:0 auto;
     width:1000px;
     .header{
-        background:#efefef;
         text-align: center;
         font-size: 32px;
         font-weight: bold;
         padding:20px 0;
     }
     .navigation{
-        background:#efefef;
         margin:10px 0 0 0;
         display: flex;
         flex-direction: row;
@@ -35,25 +32,39 @@
         }
     }
     .content{
-        background:#efefef;
         margin:10px 0 0 0;
         padding:20px;
         .article{
-            margin:0 0 10px 0;
-            border-bottom:1px dashed #cccccc;
+            margin:0 0 20px 0;
             padding:0 0 8px 0;
-            .time{
-                font-size:10px;
-                color:#999999;
-            }
             .title{
-                font-size:16px;
+                font-size:18px;
                 font-weight: bold;
-                margin:2px 0 5px 0;
+                margin:2px 0 10px 0;
             }
             .descirption{
                 font-size:14px;
             }
+        }
+    }
+    .footer{
+        background: #081b29;
+        color:#ffffff;
+        text-align: center;
+        font-size: 14px;
+        padding:18px 0;
+        img{
+            width:20px;
+            height:20px;
+            margin-right: 4px;
+        }
+        .ministry{
+            margin-bottom: 8px;
+            a{
+                color:#ffffff;
+            }
+        }
+        .copyright{
         }
     }
 }
