@@ -1,11 +1,11 @@
 {
-    "name": "pc-standard",
-    "description": "pc-standard",
+    "name": "shemore",
+    "description": "shemore",
     "version": "1.0.0",
     "main": "index.web.js",
     "scripts": {
-        "start:dev": "pm2 startOrRestart ./config/ecosystem/ecosystem.json --only blog-node-pc-service-dev",
-        "start:production": "pm2 startOrRestart ./config/ecosystem/ecosystem.json --only blog-node-pc-service-production",
+        "start:dev": "pm2 startOrRestart ./config/ecosystem/ecosystem.json --only shemore-service-dev",
+        "start:production": "pm2 startOrRestart ./config/ecosystem/ecosystem.json --only shemore-service-production",
         "restart:dev": "pm2 delete all && npm run start:dev",
         "restart:production": "pm2 delete all && npm run start:production",
         "dev": "./node_modules/.bin/webpack-dev-server --config ./bin/build/webpack.dev.conf.js --port 8001",
@@ -19,7 +19,7 @@
         "url": ""
     },
     "keywords": [
-        "pc-standard"
+        "shemore"
     ],
     "author": "huanglijun317@126.com",
     "dependencies": {
