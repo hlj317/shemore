@@ -1,7 +1,7 @@
 <template>
   <div id="home"
        class="home-page">
-    <section class="header">水梦露产品宣传</section>
+    <section class="header">水梦露展示宣传</section>
     <section class="navigation">
       <div class="entry"><a href="#">公司</br>简介</a></div>
       <div class="entry"><a href="#">品牌</br>故事</a></div>
