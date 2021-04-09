@@ -1,21 +1,21 @@
 <template>
   <div id="home"
        class="home-page">
-    <section class="header">水梦露展示宣传</section>
+    <section class="header">个人简历介绍</section>
     <section class="navigation">
-      <div class="entry"><a href="#">公司</br>简介</a></div>
-      <div class="entry"><a href="#">品牌</br>故事</a></div>
-      <div class="entry"><a href="#">产品</br>介绍</a></div>
-      <div class="entry"><a href="#">口碑</br>评价</a></div>
+      <div class="entry"><a href="#">个人</br>介绍</a></div>
+      <div class="entry"><a href="#">大学</br>经历</a></div>
+      <div class="entry"><a href="#">获奖</br>荣誉</a></div>
+      <div class="entry"><a href="#">实习</br>收获</a></div>
     </section>
     <section class="content">
       <div class="article">
-        <div class="title">品牌理念</div>
-        <div class="descirption">水梦露，一个融合科技与自然之美的新美妆品牌。秉承“科技致美”的品牌理念，从东方女性肌肤出发，水梦露将走在科技前沿、具有创造性的尖端科技运用到护肤领域，融合纯天然自然精华，焕发女性肌肤潜能，保持年轻活力，无惧时光挑战。</div>
+        <div class="title">大学经历</div>
+        <div class="descirption">自2004年至今一向担任高三班主任、高三政治教学、高三政治备课组长、高三文科综合组长等工作，所带班级在历年高考中本科上线人数最多，高考成绩突出，高考业绩显著获得的市级以上荣誉包括：河南省优质课一等奖、河南省优质课教师、濮阳市市级学科技术带头人、濮阳市优质课一等奖、濮阳市礼貌教师、濮阳市优质课教师、濮阳市教育中心优秀人才、优秀青年岗位能手、市级先进教师等荣誉称号。。</div>
       </div>
       <div class="article">
-        <div class="title">品牌实力</div>
-        <div class="descirption">水梦露始终相信“大自然富含天然有效的护肤奥秘”，水梦露肌肤研究院专家致力于发现大自然的纯天然护肤成分，通过尖端科技萃取精研，创造出“安全、科学、有效”的水梦露护肤秘诀。<br/>水梦露采用全球先进生产工艺，以及多项专利技术，以严苛标准创造高品质产品。水梦露获得ISO9001\ISO22716\ISO13485等多项质量管理体系认证，通过包含皮肤刺激测试、重金属测试、荧光增白剂检测等在内的数千项安全性测试及功效性测试。</div>
+        <div class="title">获奖荣誉</div>
+        <div class="descirption">获得院一等奖学金、“我爱记单词团体一等奖、“衿信杯”征文比赛优秀奖、英文读后感二等奖、社会活动进取分子等荣誉，高分经过英语六级考试。担任系学生会学习部干事，参加过入党进取分子培训，理解了党的教育，学习方面和思想方面均取得了优异的成绩。</div>
       </div>
     </section>
     <section class="footer">
