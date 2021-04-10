@@ -1,8 +1,8 @@
 let home = async function (ctx, next) {
     await ctx.render("pc/home", {
-        title: "个人简历介绍",
-        description: "个人简历介绍",
-        keyword: "个人简历介绍"
+        title: "动画小猪joke",
+        description: "动画小猪joke",
+        keyword: "动画小猪joke"
     });
 
     return next();

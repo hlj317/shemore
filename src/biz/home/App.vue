@@ -1,7 +1,7 @@
 <template>
   <div id="home"
        class="home-page">
-    <section class="header">个人简历介绍</section>
+    <section class="header">动画小猪joke</section>
     <section class="navigation">
       <div class="entry"><a href="#">个人</br>介绍</a></div>
       <div class="entry"><a href="#">大学</br>经历</a></div>
